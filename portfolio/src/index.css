@@ -12,7 +12,7 @@
 
 :root {
     --color-bg: olive;
-    --color-bg-variant: rgb(223, 223, 13);
+    --color-bg-variant: rgb(151, 151, 69);
     --color-primary: rgb(83, 111, 59);
     --color-primary-variant: rgb(113, 113, 73);
     --color-white: white;
@@ -103,7 +103,7 @@ a:hover {
     color: var(--color-bg);
 }
 
-.img {
+img {
     display: block;
     width: 100%;
     object-fit: cover;
