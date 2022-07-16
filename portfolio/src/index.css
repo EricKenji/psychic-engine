@@ -11,10 +11,10 @@
 }
 
 :root {
-    --color-bg: olive;
-    --color-bg-variant: rgb(151, 151, 69);
-    --color-primary: rgb(83, 111, 59);
-    --color-primary-variant: rgb(113, 113, 73);
+    --color-bg: #5C6B73;
+    --color-bg-variant: #9DB4C0;
+    --color-primary: #C2DFE3;
+    --color-primary-variant: #E0FBFC;
     --color-white: white;
     --color-light: lightgrey;
 

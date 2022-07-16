@@ -44,7 +44,7 @@ In 2021, due to the changing job landscape and my love for learning, I made the 
 
 I decided to enroll in a 6 month coding bootcamp to jump start my foray into a new career path.
 
-Up to this point, I have focused on Javascript, more specifically, MERN stack
+Up to this point, I have focused on Javascript, more specifically, MERN stack. 
 
 For fun, my hobbies include traveling, watching sports, and playing video games.          </p>
 
