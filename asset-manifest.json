@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/psychic-engine/static/css/main.1f4379a5.css",
+    "main.js": "/psychic-engine/static/js/main.3413ded6.js",
+    "static/media/stock-tracker.png": "/psychic-engine/static/media/stock-tracker.20441842e219c8950360.png",
+    "static/media/whiskeybusiness.png": "/psychic-engine/static/media/whiskeybusiness.34b53af82a809efc4110.png",
+    "static/media/collab-cargo.png": "/psychic-engine/static/media/collab-cargo.0518dc9cde4bf3217ec0.png",
+    "static/media/cv.pdf": "/psychic-engine/static/media/cv.e253f9f755c9e50eef2c.pdf",
+    "static/media/tech-talk.png": "/psychic-engine/static/media/tech-talk.8dc598cc89640f695e4c.png",
+    "static/media/me.jpeg": "/psychic-engine/static/media/me.308950c93553c07d2806.jpeg",
+    "static/media/budget-tracker.png": "/psychic-engine/static/media/budget-tracker.649f5fa1ecdd840e0f11.png",
+    "static/media/note-taker.png": "/psychic-engine/static/media/note-taker.3944daf1332c914b9b1d.png",
+    "index.html": "/psychic-engine/index.html",
+    "main.1f4379a5.css.map": "/psychic-engine/static/css/main.1f4379a5.css.map",
+    "main.3413ded6.js.map": "/psychic-engine/static/js/main.3413ded6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f4379a5.css",
+    "static/js/main.3413ded6.js"
+  ]
+}
