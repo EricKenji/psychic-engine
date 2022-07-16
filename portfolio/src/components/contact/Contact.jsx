@@ -1,10 +1,25 @@
-import React from 'react'
+import { React, useRef } from 'react'
 import './contact.css'
 import { AiOutlineMail } from 'react-icons/ai';
-import { BsGithub } from 'react-icons/bs'
+import emailjs from 'emailjs-com';
 
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_5gra43p', 'template_3ibxhtk', form.current, 'xOitACKC9VjvG2g5v')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+      e.target.reset();
+  };
+
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -19,21 +34,8 @@ const Contact = () => {
             <a href="mailto:eric.furukawa@gmail.com">Send an email</a>
           </article>
 
-          <article className="contact__option">
-            <BsGithub className='contact__option-icon'/>
-            <h4>GitHub</h4>
-            <h5>github.com/EricKenji</h5>
-            <a href="https://github.com/EricKenji">GitHub link</a>
-          </article>
-
-          <article className="contact__option">
-            <AiOutlineMail className='contact__option-icon'/>
-            <h4>LinkedIn</h4>
-            <h5>linkedin.com/in/eric-furukawa/</h5>
-            <a href="https://www.linkedin.com/in/eric-furukawa/">LinkedIn Link</a>
-          </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message'></textarea>
